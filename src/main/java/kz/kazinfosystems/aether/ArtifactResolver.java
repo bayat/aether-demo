@@ -14,14 +14,14 @@ import org.eclipse.aether.version.Version;
 import java.util.List;
 
 public class ArtifactResolver {
-    public static void resolveArtifact(String groupId, String artifactId, String version) throws Exception {
+    public static void resolveArtifact(String groupId, String artifactId, String classifier, String version) throws Exception {
         RepositorySystem system = Booter.newRepositorySystem();
         RepositorySystemSession session = Booter.newRepositorySystemSession(system);
         List<RemoteRepository> repositories = Booter.newRepositories(system, session);
         Artifact artifact = null;
         if (resolveNewest(version)) {
             String preparedVersion = prepareVersion(version);
-            artifact = new DefaultArtifact(groupId, artifactId, "jar", preparedVersion);
+            artifact = new DefaultArtifact(groupId, artifactId, classifier, "jar", preparedVersion);
             VersionRangeRequest rangeRequest = new VersionRangeRequest();
             rangeRequest.setArtifact(artifact);
             rangeRequest.setRepositories(repositories);
@@ -29,7 +29,7 @@ public class ArtifactResolver {
             Version newestVersion = rangeResult.getHighestVersion();
             artifact = artifact.setVersion(newestVersion.toString());
         } else {
-            artifact = new DefaultArtifact(groupId, artifactId, "jar", version);
+            artifact = new DefaultArtifact(groupId, artifactId, classifier, "jar", version);
         }
         ArtifactRequest artifactRequest = new ArtifactRequest();
         artifactRequest.setArtifact(artifact);
