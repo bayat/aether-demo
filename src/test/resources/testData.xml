@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dependencies>
+    <dependency org="org.slf4j" name="slf4j-api" rev="1.7.18"/>
+    <dependency org="org.slf4j" name="slf4j-log4j12" rev="1.7.18"/>
+    <dependency org="javax.servlet" name="javax.servlet-api" rev="3.1.0"/>
+    <dependency org="commons-fileupload" name="commons-fileupload" rev="1.3.1"/>
+    <dependency org="org.eclipse.jetty.aggregate" name="jetty-all" rev="9.3.3.v20150827"/>
+    <dependency org="mysqlasdf" name="mysql-connector-java" rev="5.1.38"/>
+    <dependency org="org.apache.derby" name="derby" rev="10.12.1.1"/>
+    <dependency org="org.firebirdsql.jdbc" name="jaybird-jdk17" rev="2.2.9"/>
+    <dependency org="net.sourceforge.jtds" name="jtds" rev="1.3.1"/>
+    <dependency org="commons-codec" name="commons-codec" rev="1.10"/>
+    <dependency org="org.apache.commons" name="commons-dbcp2" rev="2.1.1"/>
+    <dependency org="org.apache.commons" name="commons-pool2" rev="2.4.2"/>
+    <dependency org="org.apache.commons" name="commons-compress" rev="1.10"/>
+    <dependency org="net.sf.ehcache" name="ehcache" rev="2.10.1"/>
+    <dependency org="com.atlassian.commonmark" name="commonmark" rev="0.5.0"/>
+    <dependency org="com.atlassian.commonmark" name="commonmark-ext-autolink" rev="0.5.0"/>
+    <dependency org="com.atlassian.commonmark" name="commonmark-ext-gfm-tables" rev="0.5.0"/>
+    <dependency org="com.atlassian.commonmark" name="commonmark-ext-gfm-strikethrough" rev="0.5.0"/>
+    <dependency org="org.nibor.autolink" name="autolink" rev="0.4.0"/>
+    <dependency org="net.jawr" name="jawr-core" rev="3.8"/>
+    <dependency org="com.googlecode.juniversalchardet" name="juniversalchardet" rev="1.0.3"/>
+    <dependency org="net.java.dev.jna" name="jna" rev="4.2.1"/>
+    <dependency org="net.java.dev.jna" name="jna-platform" rev="4.2.1"/>
+    <dependency org="org.apache.ivy" name="ivy" rev="2.4.0"/>
+    <dependency org="org.apache.ant" name="ant" rev="1.9.7"/>
+    <dependency org="org.apache.ant" name="ant-launcher" rev="1.9.7"/>
+    <dependency org="org.apache.ant" name="ant-junit" rev="1.9.7"/>
+    <dependency org="org.apache.ant" name="ant-junit4" rev="1.9.7"/>
+    <dependency org="org.apache.commons" name="commons-vfs2" rev="2.1"/>
+    <dependency org="commons-io" name="commons-io" rev="2.5"/>
+    <dependency org="commons-logging" name="commons-logging" rev="1.2"/>
+    <dependency org="junit" name="junit" rev="4.12"/>
+    <dependency org="org.hamcrest" name="hamcrest-core" rev="1.3"/>
+    <dependency org="org.codehaus.groovy" name="groovy-all" rev="2.4.6"/>
+    <dependency org="org.fusesource.jansi" name="jansi" rev="1.11"/>
+    <dependency org="log4j" name="log4j" rev="1.2.17"/>
+</dependencies>
