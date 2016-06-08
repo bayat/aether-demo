@@ -1,4 +1,4 @@
-package kz.kazinfosystems.aether.util;
+package kz.kazinfosystems.aether.api.impl.util;
 
 import org.eclipse.aether.AbstractRepositoryListener;
 import org.eclipse.aether.RepositoryEvent;

@@ -1,6 +1,6 @@
-package kz.kazinfosystems.aether.util;
+package kz.kazinfosystems.aether.api.impl.util;
 
-import kz.kazinfosystems.aether.manual.ManualRepositorySystemFactory;
+import kz.kazinfosystems.aether.api.impl.manual.ManualRepositorySystemFactory;
 import org.apache.maven.repository.internal.MavenRepositorySystemUtils;
 import org.eclipse.aether.DefaultRepositorySystemSession;
 import org.eclipse.aether.RepositorySystem;

@@ -24,10 +24,10 @@ public class ExtLibServiceImpl implements ExtLibService {
     public boolean loadArtifact(String org, String module, String version, String type, String outFile, boolean require) throws Exception {
         Artifact artifact = null;
         try {
-            artifact = ArtifactResolver.resolveArtifact(org, module, type, version);
+            artifact = ArtifactResolver.resolveArtifact(org, module, type, version, outFile);
         } catch (Exception e) {
             if (require) {
-                throw new Exception("loadArtifact is failed");
+                throw new Exception("load " + org + ":" + module + " is failed");
             } else {
                 return false;
             }

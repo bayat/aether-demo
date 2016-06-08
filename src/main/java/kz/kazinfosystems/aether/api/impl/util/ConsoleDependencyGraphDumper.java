@@ -1,4 +1,4 @@
-package kz.kazinfosystems.aether.util;
+package kz.kazinfosystems.aether.api.impl.util;
 
 import org.eclipse.aether.artifact.Artifact;
 import org.eclipse.aether.graph.Dependency;

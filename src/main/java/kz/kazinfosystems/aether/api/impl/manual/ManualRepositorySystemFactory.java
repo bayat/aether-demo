@@ -1,4 +1,4 @@
-package kz.kazinfosystems.aether.manual;
+package kz.kazinfosystems.aether.api.impl.manual;
 
 import org.apache.maven.repository.internal.MavenRepositorySystemUtils;
 import org.eclipse.aether.RepositorySystem;
